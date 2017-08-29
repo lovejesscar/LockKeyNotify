@@ -15,13 +15,5 @@
 ## 可能遇到的问题
 * 如果开启了UAC，每次启动后要读取注册表，因此开机需要弹出权限确认框。如果感觉麻烦，请关闭UAC。
 * 第一次打开会在托盘区小箭头李，自行拖动到任务栏即可。
-## 参考
-*  http://www.cnblogs.com/laozuan/p/3375618.html（右键思路）
-*  http://www.cnblogs.com/lellansin/archive/2012/05/15/2502313.html（开机自启）
-*  http://www.cnblogs.com/zhanghtt/archive/2012/02/22/2363696.html（钩子）
-*  https://zhidao.baidu.com/question/369653372165966124.html（钩子）
-*  http://blog.csdn.net/shuaishifu/article/details/37954825（管理权限）
-*  http://www.cnblogs.com/qiyecao/p/4011104.html（清理内存）
-## Change Log
 ### V0.9.0
 * 实现基本的功能
