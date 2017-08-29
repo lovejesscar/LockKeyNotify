@@ -1,8 +1,8 @@
-# LockKeyNotify（Main function）
+## LockKeyNotify（Main function）
 * 按键状态显示程序，目前主要监控 ***Capslock*** 和 ***Numslock***
-*Show state of Capslock and NumsLock in tray。
-#环境（Environment）
-*ViusalStdio 2017
+* Show state of Capslock and NumsLock in tray。
+## 环境（Environment）
+* Viusal Stdio 2017
 ## 核心逻辑(How it work)
 * 使用C# 的WinForm编写的托盘程序，窗口直接隐藏。设置全局钩子监控键盘按键，当键位变化时读取键位表，并启动循环，监控Ts（当前4s）内有无按键按下。
 * Use C#'s WinForm tray,hidden form.Use Globe Hook monitoring key，when keydown，read key map,and keep tracking keydown in 4 seconds. 
