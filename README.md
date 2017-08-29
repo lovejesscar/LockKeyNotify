@@ -26,6 +26,6 @@
 * 第一次打开会在托盘区小箭头李，自行拖动到任务栏即可。
 * Tray Icon may hidden at first time,just drag out from hidden zone.
 ##Release 
-### V0.9.0
+### V 0.9.0
 * 实现基本的功能
 * Finish the function.
